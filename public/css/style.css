@@ -1,0 +1,54 @@
+.bg-gold {
+    background-color: #C6A961;
+    color: azure;
+}
+
+.text-gold {
+    color: #C6A961;
+}
+
+.text-green {
+    color: #006F42;
+}
+
+.bg-green {
+    background-color: #006F42;
+    color: white;
+}
+
+a {
+    font-size: 20px !important;
+}
+
+.dropdown-menu li a{
+    font-size: 16px !important;
+}
+
+.img-thumbnail {
+    width: 30vh;
+    object-fit: contain;
+    border: none;
+    border-radius: 10px;
+}
+
+.promo-card {
+    width: 30vw;
+}
+
+.nav-link {
+    font-weight: 700;
+}
+
+
+@media only screen and (device-width : 414px) and (device-height : 896px) and (-webkit-device-pixel-ratio : 2) {
+    .img-thumbnail {
+        width: 35vw;
+        object-fit: contain;
+        border: none;
+        border-radius: 10px;
+    }
+
+    .promo-card {
+        width: 35vw;
+    }
+}
