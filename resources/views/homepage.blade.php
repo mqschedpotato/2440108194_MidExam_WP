@@ -105,9 +105,9 @@
                 aria-hidden="true"></i>
         </button>
         <div id="promo" class="my-5">
-            <div class="d-flex justify-content-center border-0">
+            <div class="d-flex justify-content-center border-0 ">
                 <img src="{{ asset($request->user_id == 1 ? 'images/1.png ' : ($request->user_id == 2 ? 'images/2.png ' : 'images/')) }}"
-                    class="promo-card">
+                    class="promo-card rounded-3">
             </div>
 
             <br>
